@@ -59,4 +59,18 @@ vim.opt.cursorline = true
 -- Minimal number of screen lines to keep above and below the cursor.
 vim.opt.scrolloff = 10
 
+-- Copy to system cliboard
+vim.api.nvim_set_option('clipboard', 'unnamed')
+
 -- vim: ts=2 sts=2 sw=2 et
+vim.opt.tabstop = 2
+vim.opt.shiftwidth = 2
+
+-- Enable auto-indenting
+vim.opt.autoindent = true
+
+-- Enable line wrapping
+vim.opt.wrap = true
+
+-- Keep 10 lines above and below the cursor
+vim.opt.scrolloff = 10
